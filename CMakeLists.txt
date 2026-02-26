@@ -3,4 +3,6 @@ project(struct_data)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(struct_data main.cpp)
+add_executable(struct_data main.cpp
+        lab1/task1.cpp
+        lab1/task1.h)
