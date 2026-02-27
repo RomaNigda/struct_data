@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(struct_data main.cpp
         lab1/task1.cpp
-        lab1/task1.h)
+        lab1/task1.h
+        lab2/task1.cpp
+        lab2/task1.h)

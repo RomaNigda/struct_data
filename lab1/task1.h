@@ -2,10 +2,10 @@
 // Created by User on 26.02.2026.
 //
 
-#ifndef STRUCT_DATA_TASK1_H
-#define STRUCT_DATA_TASK1_H
+#ifndef LAB1_TASK1_H
+#define LAB1_TASK1_H
 
-int task1();
+int task1_lab1();
 
 
-#endif //STRUCT_DATA_TASK1_H
+#endif //LAB1_TASK1_H
