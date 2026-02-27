@@ -2,8 +2,8 @@
 // Created by User on 26.02.2026.
 //
 
-#ifndef LAB1_TASK1_H
-#define LAB1_TASK1_H
+#ifndef LAB1
+#define LAB1
 
 int task1_lab1();
 

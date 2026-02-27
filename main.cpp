@@ -1,6 +1,6 @@
 #include <iostream>
-#include "lab1/task1.h"
-#include "lab2/task1.h"
+#include "lab1/lab1.h"
+#include "lab2/lab2.h"
 
 using namespace std;
 
@@ -8,7 +8,8 @@ int main() {
     cout << "Hello World!" << endl;
 
     // task1_lab1();
-    task1_lab2(10);
+    // task1_lab2(1000);
+    task2_lab2(1000, 30);
 
     return 0;
 }

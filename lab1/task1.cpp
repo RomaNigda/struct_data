@@ -1,4 +1,4 @@
-#include "task1.h"
+#include "lab1.h"
 
 #include <iostream>
 #include <fstream>
@@ -133,45 +133,6 @@ int task1_lab1(){
     for (int i = 0; i < sizeof(valueOfIterration)/sizeof(valueOfIterration[0]); i++) {
         fullCycle(valueOfIterration[i], i+1);
     }
-
-
-
-    // // cout << "Enter length of array: ";
-    // // cin >> lenOfArray;
-    //
-    // if (!correctLenOfArray(lenOfArray)) {
-    //     cout << "Invalid length of array!\n";
-    //     return 1;
-    // }
-    //
-    // createArray(arr, lenOfArray);
-    // showArray(arr, lenOfArray);
-    //
-    // cout << "\n\n";
-    //
-    // createMatrix(arr, lenOfArray, matrix);
-    // showMatrix(matrix, lenOfArray);
-    //
-    // cout << "\n\n";
-    // sortMatrix(matrix, lenOfArray);
-    // showMatrix(matrix, lenOfArray);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     return 0;
 }

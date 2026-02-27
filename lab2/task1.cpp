@@ -1,10 +1,10 @@
-#include "task1.h"
+#include "lab2.h"
 
 #include <iostream>
 #include <ostream>
 using namespace std;
 
-void fillArray(int arr[], int size) {
+static void fillArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         arr[i] = rand() % 100;
     }
@@ -67,7 +67,7 @@ void putOnTheirPlaces(int arr[], int size) {
     sortSequence(arr, size, even);
 }
 
-void showArray(int arr[], int size) {
+static void showArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
@@ -79,6 +79,10 @@ void showArray(int arr[], int size) {
 int task1_lab2(int lenOfArray) {
     srand(time(NULL));
     int array[lenOfArray];
+
+    clock_t start = clock();
+
+
     fillArray(array, lenOfArray);
 
     cout << "task1_lab2()" << endl;
@@ -89,6 +93,12 @@ int task1_lab2(int lenOfArray) {
 
     putOnTheirPlaces(array, lenOfArray);
     showArray(array, lenOfArray);
+
+    clock_t end = clock();
+
+    double time = (double)(end - start) / CLOCKS_PER_SEC;
+
+    cout << "---------------\n\n" << time << "\n\n---------------\n\n";
 
 
     return 0;
