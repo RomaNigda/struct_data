@@ -9,5 +9,7 @@ add_executable(struct_data main.cpp
         lab2/task1.cpp
         lab2/lab2.h
         lab2/task2.cpp
+        lab2/task3.cpp
+        lab2/task3.h
 )
 #lab2/task2_lab2.h

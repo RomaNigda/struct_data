@@ -5,11 +5,13 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!" << endl;
+    // cout << "Hello World!" << endl;
 
     // task1_lab1();
     // task1_lab2(1000);
-    task2_lab2(1000, 30);
+    // task2_lab2(1000, 30);
+    task3_lab2();
+
 
     return 0;
 }
