@@ -33,7 +33,7 @@ static void showArray(int arr[], int size) {
 }
 
 
-int task2_lab2(int lenOfArray, int maxValue) {
+int lab2_task2(int lenOfArray, int maxValue) {
     srand(time(NULL));
     int array[lenOfArray];
     clock_t end;

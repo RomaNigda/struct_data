@@ -76,7 +76,7 @@ void transformMatrix(int matrix[][5], int size) {
 
 
 
-int task3_lab2() {
+int lab2_task3() {
     int matrix[5][5];
     srand(time(NULL));
     clock_t end;

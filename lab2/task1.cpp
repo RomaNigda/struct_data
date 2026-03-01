@@ -76,7 +76,7 @@ static void showArray(int arr[], int size) {
 
 
 
-int task1_lab2(int lenOfArray) {
+int lab2_task1(int lenOfArray) {
     srand(time(NULL));
     int array[lenOfArray];
 
