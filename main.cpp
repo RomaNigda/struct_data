@@ -1,6 +1,6 @@
 #include <iostream>
-#include "lab1/lab1.h"
-#include "lab2/lab2.h"
+#include "lab-01/lab1.h"
+#include "lab-02/lab2.h"
 
 using namespace std;
 
@@ -12,7 +12,8 @@ int main() {
     // task2_lab2(1000, 30);
     // task3_lab2();
 
-    lab2_task4(5);
+    // lab2_task4(5);
+
 
 
 
