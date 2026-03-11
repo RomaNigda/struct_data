@@ -124,9 +124,6 @@ int fullCycle(int lenOfArray, int count) {
 int task1_lab1(){
     ofstream exitFile("result.txt", ios::trunc);
     exitFile.close();
-    // int lenOfArray;
-    // float arr[lenOfArray];
-    // float matrix[lenOfArray][countOfColumn];
 
     int valueOfIterration[]={20, 100, 1000};
 
