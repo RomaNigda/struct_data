@@ -24,21 +24,18 @@ void sortEvenOdd(int arr[], int size) {
     int result[size];
     int index = 0;
 
-    // Спочатку додаємо всі парні числа
     for (int i = 0; i < size; i++) {
         if (arr[i] % 2 == 0) {
             result[index++] = arr[i];
         }
     }
 
-    // Потім додаємо всі непарні числа
     for (int i = 0; i < size; i++) {
         if (arr[i] % 2 != 0) {
             result[index++] = arr[i];
         }
     }
 
-    // Копіюємо результат назад у вихідний масив
     for (int i = 0; i < size; i++) {
         arr[i] = result[i];
     }
@@ -85,7 +82,7 @@ int lab2_task1(int lenOfArray) {
 
     fillArray(array, lenOfArray);
 
-    cout << "task1_lab2()" << endl;
+    // cout << "task1_lab2()" << endl;
 
     showArray(array, lenOfArray);
 
