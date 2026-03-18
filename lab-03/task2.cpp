@@ -19,9 +19,6 @@ struct Student {
     void display() {
         cout << surname << " " << course << " " << averageGrade << " " << faculty << endl;
     }
-
-
-
 };
 
 float countAverageGrade(Student students[], int size) {
@@ -29,7 +26,7 @@ float countAverageGrade(Student students[], int size) {
     for (int i = 0; i < size; i++) {
         averageGrade = averageGrade + (float) students[i].averageGrade;
     }
-    return averageGrade/float(size);
+    return averageGrade / float(size);
 }
 
 
