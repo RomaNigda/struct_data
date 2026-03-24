@@ -21,6 +21,7 @@ int main() {
 
     // lab4_task1(2);   return 0;
 
-    // lab5_task1();
-    lab5_task2(2);
+    lab5_task1();
+    // lab5_task2(2);
+    // lab5_task3(2);
 }

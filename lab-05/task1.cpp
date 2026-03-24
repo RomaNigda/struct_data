@@ -130,9 +130,13 @@ void deleteList(LinkedList *first) {
 int lab5_task1() {
     showList(first);
     first = addFirst(first, 10);
+    showList(first);
     first = addLast(first, 30);
+    showList(first);
     first = addAfter(first, 20, 10);
+    showList(first);
     first = addAfter(first, 25, 10);
+    showList(first);
 
     cout << "Average: " << countAverage(first) << endl;
     showList(first);

@@ -9,4 +9,6 @@ int lab5_task1();
 
 int lab5_task2(int length);
 
+int lab5_task3(int length);
+
 #endif //STRUCT_DATA_LAB5_H

@@ -19,7 +19,7 @@ static LinkedList *createContainer() {
 }
 
 static void showContainer(LinkedList const *container) {
-    cout << container->name << " " << container->lengthToKyiv << endl;
+    cout << "Name: " << container->name << " | Year: " << container->lengthToKyiv << endl;
 }
 
 static LinkedList *addFirst(LinkedList *first) {
@@ -48,13 +48,13 @@ void static showList(LinkedList *first) {
         return;
     }
     while (q != nullptr) {
-        cout << q->name << " " << q->lengthToKyiv << endl;
+        showContainer(q);
         q = q->next;
     }
     cout << endl;
 }
 
-int lengthOfList(LinkedList *first) {
+static int lengthOfList(LinkedList *first) {
     int count = 0;
     LinkedList *q = first;
     while (q != nullptr) {
@@ -113,9 +113,6 @@ int lab5_task2(const int length) {
 
     cout << "=========================\n";
     showTwoMostDistanceCity(first);
-
-
-
     cout << "=========================\n";
     cout << "Enter foreign city: \n";
     first = addLast(first);
