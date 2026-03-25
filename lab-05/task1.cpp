@@ -2,13 +2,13 @@
 using namespace std;
 
 struct LinkedList {
-    int name;
+    int number;
     LinkedList *next;
-} *first, *last = nullptr;
+} *last = nullptr;
 
 LinkedList *addFirst(LinkedList *first, int value) {
     auto *c = new LinkedList;
-    c->name = value;
+    c->number = value;
     c->next = first;
     first = c;
     if (last == nullptr)
@@ -18,7 +18,7 @@ LinkedList *addFirst(LinkedList *first, int value) {
 
 LinkedList *addLast(LinkedList *first, int value) {
     auto *c = new LinkedList;
-    c->name = value;
+    c->number = value;
     c->next = nullptr;
     if (first == nullptr) {
         first = c;
@@ -32,15 +32,16 @@ LinkedList *addLast(LinkedList *first, int value) {
 
 LinkedList *addAfter(LinkedList *first, int value, int afterValue) {
     LinkedList *q = first;
-    while (q != nullptr && q->name != afterValue)
+    while (q != nullptr && q->number != afterValue) {
         q = q->next;
+    }
     if (q == nullptr) {
         cout << "Value not find";
         return first;
     }
 
     auto *c = new LinkedList;
-    c->name = value;
+    c->number = value;
     c->next = q->next;
     q->next = c;
     return first;
@@ -76,7 +77,7 @@ void showList(LinkedList *first) {
         return;
     }
     while (q != nullptr) {
-        cout << q->name << " ";
+        cout << q->number << " ";
         q = q->next;
     }
     cout << endl;
@@ -87,7 +88,7 @@ float countAverage(LinkedList *first) {
     int count = 0;
     LinkedList *q = first;
     while (q != nullptr) {
-        sum += q->name;
+        sum += q->number;
         q = q->next;
         count++;
     }
@@ -97,13 +98,13 @@ float countAverage(LinkedList *first) {
 
 LinkedList *deleteFirstEvenNumber(LinkedList *first) {
     LinkedList *q = first;
-    if (q->name % 2 == 0) {
+    if (q->number % 2 == 0) {
         auto temp = q->next;
         delete q;
         return temp;
     }
 
-    while (q->next != nullptr && q->next->name % 2 != 0) {
+    while (q->next != nullptr && q->next->number % 2 != 0) {
         q = q->next;
     }
     if (q->next == nullptr) {
@@ -128,6 +129,7 @@ void deleteList(LinkedList *first) {
 
 
 int lab5_task1() {
+    LinkedList *first;
     showList(first);
     first = addFirst(first, 10);
     showList(first);
