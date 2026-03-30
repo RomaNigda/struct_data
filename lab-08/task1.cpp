@@ -187,3 +187,4 @@ int lab8_task1() {
 
 
 // add comment
+// second comment in main
