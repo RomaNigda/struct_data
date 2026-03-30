@@ -5,6 +5,7 @@
 #include "lab-04/lab4.h"
 #include "lab-05/lab5.h"
 #include "lab-06/lab6.h"
+#include "lab-07/lab7.h"
 
 using namespace std;
 
@@ -29,5 +30,7 @@ int main() {
     // lab6_task1();
     // lab6_task2();
     // lab6_task3();
-    lab6_task4();
+    // lab6_task4();
+    // lab7_task1();
+    lab7_task2();
 }

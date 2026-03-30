@@ -26,5 +26,8 @@ add_executable(struct_data main.cpp
         lab-06/task2.cpp
         lab-06/task3.cpp
         lab-06/task4.cpp
+        lab-07/lab7.h
+        lab-07/task1.cpp
+        lab-07/task2.cpp
 )
 #lab2/task2_lab2.h
