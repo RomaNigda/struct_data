@@ -27,5 +27,7 @@ int main() {
     // lab5_task3(2);
 
     // lab6_task1();
-    lab6_task2();
+    // lab6_task2();
+    // lab6_task3();
+    lab6_task4();
 }
