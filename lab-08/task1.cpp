@@ -184,3 +184,6 @@ int lab8_task1() {
 
     return 0;
 }
+
+
+// add comment
