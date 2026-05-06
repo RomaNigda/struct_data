@@ -32,5 +32,38 @@ add_executable(struct_data main.cpp
         lab-08/lab8.h
         lab-08/task1.cpp
         lab-08/task2.cpp
+        lab-09/lab9.h
+        lab-09/task1.cpp
+        "lab-09/task2(test).cpp"
+        lab-09/2.cpp
+        lab-09/task2.cpp
+        lab-10/lab10.h
+        lab-10/task1.cpp
+        lab-11/lab11.h
+        lab-11/task1.cpp
+        lab-12/task1.cpp
+        lab-12/lab12.h
+        lab-12/task2.cpp
+        lab-12/task3.cpp
+        lab-13/task1.cpp
+        lab-13/lab13.h
+        lab-13/task2.cpp
+        lab-13/task3.cpp
+        lab-13/task4.cpp
+        lab-13/task5.cpp
+        lab-14/lab14.h
+        lab-14/task1.cpp
+        lab-14/task2.cpp
+        lab-14/task3.cpp
+        lab-14/task4.cpp
+        lab-15/task1.cpp
+        lab-15/lab15.h
+        lab-15/task2.cpp
+        lab-15/task3.cpp
+        lab-16/task1.cpp
+        lab-16/lab16.h
+        lab-16/task2.cpp
+        lab-17/task1.cpp
+        lab-17/lab17.h
 )
 #lab2/task2_lab2.h
