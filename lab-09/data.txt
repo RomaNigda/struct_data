@@ -1,0 +1,7 @@
+101 Laptop 1500
+55 Mouse 25
+200 Monitor 300
+75 Keyboard 80
+120 Phone 900
+125 pg 600
+115 ph 700
