@@ -7,34 +7,23 @@
 #include "lab-06/lab6.h"
 #include "lab-07/lab7.h"
 #include "lab-08/lab8.h"
+#include "lab-09/lab9.h"
+#include "lab-10/lab10.h"
+#include "lab-11/lab11.h"
+#include "lab-12/lab12.h"
+#include "lab-13/lab13.h"
+#include "lab-14/lab14.h"
+#include "lab-15/lab15.h"
+#include "lab-16/lab16.h"
+#include "lab-17/lab17.h"
 
 using namespace std;
 
 int main() {
-    // task1_lab1();
-    //
-    // lab2_task1(5);
-    // lab2_task2(5, 30);
-    // lab2_task3();
-    // lab2_task4(10);
-
-    // lab3_task1();
-    // lab3_task2(2);
-    // lab3_task3(3);
-
-    // lab4_task1(2);   return 0;
-
-    // lab5_task1();
-    // lab5_task2(2);
-    // lab5_task3(2);
-
-    // lab6_task1();
-    // lab6_task2();
-    // lab6_task3();
-    // lab6_task4();
-    // lab7_task1();
-    // lab7_task2();
-
-    // lab8_task1();
-    lab8_task2();
+    // lab15_task1();
+    // lab15_task3();
+    // lab14_task4();
+    // lab16_task1();
+    // lab16_task2();
+    lab17_task1();
 }
