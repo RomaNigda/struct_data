@@ -31,7 +31,7 @@ namespace lab17 {
         }
     }
 
-    void bubbleSortByMark(vector<Student> &students) {
+    vector<Student> bubbleSortByMark(vector<Student> students) {
         for (int i = 0; i < students.size() - 1; i++) {
             for (int j = 0; j < students.size() - i - 1; j++) {
                 if (students[j].averageMark > students[j + 1].averageMark) {
@@ -39,9 +39,10 @@ namespace lab17 {
                 }
             }
         }
+        return students;
     }
 
-    void insertionSort(vector<Student> &students) {
+    vector<Student> insertionSort(vector<Student> students) {
         int n = students.size();
         for (int i = 1; i < n; i++) {
             Student key = students[i];
@@ -52,9 +53,10 @@ namespace lab17 {
             }
             students[j + 1] = key;
         }
+        return students;
     }
 
-    void binarySearchByMark(vector<Student> &students, float targetMark) {
+    vector<int> binarySearchByMark(vector<Student> students, float targetMark) {
         vector<int> indexes = {};
         int n = students.size();
         int left = 0;
@@ -96,6 +98,7 @@ namespace lab17 {
         } else {
             cout << "Students with this target mark not found" << endl;
         }
+        return indexes;
     }
 
 
@@ -108,6 +111,11 @@ namespace lab17 {
             {"five", 147, {83, 87, 87, 91}, 0.0},
             {"six", 123, {88, 99, 85, 70}, 0.0},
         };
+        const float targetMark = 87.0;
+        auto students1 = students;
+        auto students2 = students;
+        vector<int> indexesOfTargetMark = {};
+
 
         cout << "\nOriginal vector" << endl;
         calculateAverageInVector(students);
@@ -115,18 +123,17 @@ namespace lab17 {
 
         cout << "\n=====================" << endl;
         cout << "Bubble sort by mark" << endl;
-        bubbleSortByMark(students);
-        showVector(students);
+        students1 = bubbleSortByMark(students);
+        showVector(students1);
 
         cout << "\n=====================" << endl;
         cout << "Insertion sort by group" << endl;
-        auto students2 = students;
-        insertionSort(students2);
+        students2 = insertionSort(students);
         showVector(students2);
 
         cout << "\n=====================" << endl;
         cout << "Binary search by mark" << endl;
-        binarySearchByMark(students, 87);
+        indexesOfTargetMark = binarySearchByMark(students1, targetMark);
 
         return 0;
     }
