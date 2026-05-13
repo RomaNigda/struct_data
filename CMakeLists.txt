@@ -65,5 +65,16 @@ add_executable(struct_data main.cpp
         lab-16/task2.cpp
         lab-17/task1.cpp
         lab-17/lab17.h
+        lab-18/lab18.h
+        lab-18/task1.cpp
+        lab-18/task2.cpp
+        lab-18/task3.cpp
+        lab-18/task4.cpp
+        lab-18/task5.cpp
+        lab-18/5.cpp
+        lab-18/6.cpp
+        lab-20/task1.cpp
+        lab-20/lab20.h
+        lab-20/task2.cpp
 )
 #lab2/task2_lab2.h
