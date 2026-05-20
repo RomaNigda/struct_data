@@ -7,8 +7,8 @@ int lab20_task1() {
     double caloriesPerKg[] = {1500, 5000, 5000, 4000};
     string productName[] = {"Meat", "Flour", "Milk", "Sugar"};
 
-    double maxVolume = 45.0;
-    double maxWeight = 35.0;
+    double maxVolume = 90.0;
+    double maxWeight = 70.0;
 
 
     double baseAmountPerUnit[] = {16.0, 8.0, 8.0, 1.0};

@@ -97,7 +97,7 @@ int lab18_task2() {
     cin >> sourceChoice;
 
     string result;
- if (sourceChoice == 1) {
+    if (sourceChoice == 1) {
         result = processFromConsole();
     } else if (sourceChoice == 2) {
         result = processFromFile();

@@ -18,6 +18,7 @@
 #include "lab-17/lab17.h"
 #include "lab-18/lab18.h"
 #include "lab-20/lab20.h"
+#include "lab-21/lab21.h"
 
 using namespace std;
 
@@ -32,7 +33,9 @@ int main() {
     // lab18_task2();
     // lab18_task3();
     // lab18_task4();
-    // lab18_task5();
+    // lab18_task6();
     // lab20_task1();
-    lab20_task2();
+    // lab20_task2();
+    // lab21_task1();
+    lab21_task2();
 }

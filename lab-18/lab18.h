@@ -18,5 +18,7 @@ int lab18_task4();
 
 int lab18_task5();
 
+int lab18_task6();
+
 
 #endif //STRUCT_DATA_LAB18_H
